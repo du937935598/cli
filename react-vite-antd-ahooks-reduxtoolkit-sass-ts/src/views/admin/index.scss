@@ -1,0 +1,33 @@
+.admin{
+  width: 100%;
+  height: 100%;
+  background: $background;
+  .header{
+    padding-left: 40px;
+    height: 60px;
+    line-height: 60px;
+    background: $theme;
+    color: $white;
+    font-size: $font-size-16;
+    font-weight: bold;
+  }
+  .constant{
+    height: calc(100% - 60px);
+    overflow: hidden;
+    &-left{
+      width: 240px;
+      height: 100%;
+      background: $white;
+      text-align: center;
+      font-size: $font-size-20;
+      font-weight: bold;
+      float: left;
+    }
+    &-right{
+      width: calc(100% - 250px);
+      height: 100%;
+      float: right;
+      background: $white;
+    }
+  }
+}
